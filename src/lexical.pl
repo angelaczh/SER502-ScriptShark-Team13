@@ -34,6 +34,9 @@ single_char_operator([H|T], T, Token) :-
     atom_chars(Token, [H]).
 single_char_operator(['('|T], T, '\'(\'').
 single_char_operator([')'|T], T, '\')\'').
+single_char_operator(['"'|T], T, '\'"\'').
+single_char_operator(['"'|T], T, '\'"\'').
+
 
 % Check for non-alphanumeric characters after a token
 peek_non_alpha([H|T], [H|T]) :-
@@ -87,6 +90,7 @@ valid_identifier_char(H) :-
 % Print the tokens in a readable format
 print_tokens(Tokens) :-
     write('Tokens: '), write(Tokens), nl.
+
 
 
 
