@@ -1,0 +1,33 @@
+P in Program
+K in Block
+C in Command
+B in Boolean Expression
+E in Arithmetic Expression
+S in String Expression
+I in Identifier
+N in Number
+Str in String
+
+
+P → K.
+K → begin C end
+
+C → C; C
+C → I := E | I := B | I := S
+C → if B then C else C endif | B ? C : C endtern | while B do C endwhile | 
+for C; B; C do C endfor | for C in range(N, N) do C endfor
+
+C → print(I) | print(N) | print(Str)
+
+B → true | false | E = E | B = B | S = S | not B | B and B | B or B | I
+
+E → E + E | E - E | E * E | E / E | ( E ) | I | N
+
+I → Char {Char}
+
+N → Dig {Dig}
+Dig → 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+
+S → Str | I
+Str → “ Char {Char} “
+Char → a | b | c | … | x | y | z
