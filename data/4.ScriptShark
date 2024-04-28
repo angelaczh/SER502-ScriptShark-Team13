@@ -1,1 +1,0 @@
-begin x := 1; z := x; x = 1 and z = 1 ? print("hello") : print("goodbye") endtern end.
