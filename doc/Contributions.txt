@@ -4,6 +4,7 @@ Boan:
 * Milestone 2
    * Lexical Analyzer
    * Documentation (Lexical Analyzer)
+   * Video demo
 
 
 Angela:
@@ -16,6 +17,7 @@ Angela:
    * Sample programs
    * Documentation (Grammar, Parser, Interpreter, Installation & Runtime)
    * README.md
+   * Video demo
 
 
 Avanthika: 
@@ -23,6 +25,7 @@ Avanthika:
    * Language Name
    * GitHub setup
 * Milestone 2
+   * N/A
 
 
 Viraj:
@@ -30,3 +33,4 @@ Viraj:
    * Language Grammar
    * GitHub setup
 * Milestone 2
+   * N/A 
