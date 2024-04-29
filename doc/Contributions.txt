@@ -3,6 +3,7 @@ Boan:
    * Language Design
 * Milestone 2
    * Lexical Analyzer
+   * Grammar
    * Documentation (Lexical Analyzer)
    * Video demo
 
