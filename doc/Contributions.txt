@@ -5,6 +5,7 @@ Boan:
    * Lexical Analyzer
    * Grammar
    * Documentation (Lexical Analyzer)
+   * Discuss&test with Runtime
    * Video demo
 
 
